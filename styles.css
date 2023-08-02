@@ -1,0 +1,94 @@
+@font-face {
+  font-family: 'BabyGirly';
+  src: url('babygirly.ttf') format('truetype');
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Helvetica Neue', sans-serif;
+}
+
+p {
+    font-family: 'Helvetica Neue', sans-serif; /* Change to your preferred font-family */
+    font-size: 18px; /* Adjust the font size as needed */
+    line-height: 1.6; /* Adjust the line height for better readability */
+    color: #333; /* Change the color to your preferred text color */
+    text-align: center; /* Center the text for a cleaner appearance */
+    margin: 10px 0; /* Add vertical spacing between paragraphs */
+  }
+  
+  
+
+.background-image {
+  background: url('flower1.jpg') no-repeat center center fixed;
+  background-size: cover;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  opacity: 0.5; /* Adjust the opacity value to control the fade effect */
+}
+
+.card {
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  max-width: 400px;
+  margin: 0 auto;
+  margin-top: 50px;
+  text-align: center; /* Center the text within the card */
+}
+
+.space {
+  height: 20px; /* Adjust the height to create the desired space between sections */
+}
+
+h1 {
+  font-size: 36px;
+  text-align: center;
+  margin-bottom: 20px;
+  color: #ff6b6b;
+}
+
+.babygirly-font {
+  font-family: 'BabyGirly', cursive, 'Helvetica Neue', sans-serif; /* Use the 'BabyGirly' font, fallback to cursive, and finally 'Helvetica Neue' if needed */
+  color: #ff7b7b; /* Orange-pink color */
+}
+
+.bigger-text {
+  font-size: 40px;
+}
+
+.sophie-card,
+.danny-card,
+.amanda-card {
+  padding: 20px; /* Add white padding */
+  max-width: 100%;
+  display: block;
+  box-sizing: border-box;
+  text-align: center; /* Center the content within the card divs */
+  border-radius: 10px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); /* Add shadow */
+}
+
+.sophie-card img,
+.danny-card img,
+.amanda-card img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 10px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); /* Add shadow */
+  margin: 0 auto; /* Center the image horizontally within the div */
+  background-color: white; /* Solid white padding */
+}
+
+.sophie-card p,
+.danny-card p,
+.amanda-card p {
+  margin-bottom: 20px;
+}
