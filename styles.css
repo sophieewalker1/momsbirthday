@@ -19,9 +19,9 @@ p {
   }
   
   
-
+/* Your existing CSS rules for the background image */
 .background-image {
-  background: url('flower1.jpg') no-repeat center center fixed;
+  background: url('flower1.jpg') no-repeat center center;
   background-size: cover;
   position: fixed;
   top: 0;
@@ -31,6 +31,12 @@ p {
   z-index: -1;
   opacity: 0.5; /* Adjust the opacity value to control the fade effect */
 }
+
+/* Add the following rule to adjust the background attachment */
+.background-image {
+  background-attachment: scroll; /* or remove this line altogether */
+}
+
 
 .card {
   background-color: rgba(255, 255, 255, 0.9);
